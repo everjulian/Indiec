@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Actualizar Registro de Canción</title>
+</head>
+<body>
+    <h1>Actualizar Registro de Canción</h1>
+    <form method="post" action="/registros-canciones/{{id_registro}}?_method=PUT">
+        <label for="titulo_cancion">Título de la Canción:</label>
+        <input type="text" name="titulo_cancion" value="{{titulo_cancion}}" required>
+        <label for="nombre_artista">Nombre del Artista:</label>
+        <input type="text" name="nombre_artista" value="{{nombre_artista}}" required>
+        <!-- Otros campos del formulario con valores previos -->
+        <button type="submit">Actualizar Registro de Canción</button>
+    </form>
+</body>
+</html>

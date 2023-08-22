@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Actualizar Login de Artista</title>
+</head>
+<body>
+    <h1>Actualizar Login de Artista</h1>
+    <form method="post" action="/login-artistas/{{id_login}}?_method=PUT">
+        <label for="email_artista">Email del Artista:</label>
+        <input type="email" name="email_artista" value="{{email_artista}}" required>
+        <label for="password">Contraseña:</label>
+        <input type="password" name="password" value="{{password}}" required>
+        <button type="submit">Actualizar Login de Artista</button>
+    </form>
+</body>
+</html>

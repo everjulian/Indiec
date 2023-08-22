@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Actualizar Estado de Aprobación</title>
+</head>
+<body>
+    <h1>Actualizar Estado de Aprobación</h1>
+    <form method="post" action="/estados-aprobacion/{{id_estado}}?_method=PUT">
+        <label for="estado">Estado de Aprobación:</label>
+        <input type="text" name="estado" value="{{estado}}" required>
+        <button type="submit">Actualizar Estado de Aprobación</button>
+    </form>
+</body>
+</html>

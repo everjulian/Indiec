@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Eliminar Perfil</title>
+</head>
+<body>
+    <h1>Eliminar Perfil</h1>
+    <p>¿Estás seguro de que deseas eliminar el perfil "{{nombre}}"?</p>
+    <form method="post" action="/perfiles/{{id_perfil}}?_method=DELETE">
+        <button type="submit">Eliminar</button>
+        <a href="/perfiles">Cancelar</a>
+    </form>
+</body>
+</html>

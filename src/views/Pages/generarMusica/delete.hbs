@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Eliminar Género Musical</title>
+</head>
+<body>
+    <h1>Eliminar Género Musical</h1>
+    <p>¿Estás seguro de que deseas eliminar el género musical "{{nombre_genero}}"?</p>
+    <form method="post" action="/generos/{{id_genero}}?_method=DELETE">
+        <button type="submit">Eliminar</button>
+        <a href="/generos">Cancelar</a>
+    </form>
+</body>
+</html>

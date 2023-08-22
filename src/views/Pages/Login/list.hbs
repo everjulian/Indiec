@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Listado de Logins de Artistas</title>
+</head>
+<body>
+    <h1>Listado de Logins de Artistas</h1>
+    <ul>
+        {{#each loginsArtistas}}
+            <li>{{id_login}} - {{email_artista}} - {{password}}</li>
+        {{/each}}
+    </ul>
+</body>
+</html>

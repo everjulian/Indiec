@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Listado de Perfiles</title>
+</head>
+<body>
+    <h1>Listado de Perfiles</h1>
+    <ul>
+        {{#each perfiles}}
+            <li>{{id_perfil}} - {{nombre}} - {{follow}} - {{publicaciones}}</li>
+        {{/each}}
+    </ul>
+</body>
+</html>

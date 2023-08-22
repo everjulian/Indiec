@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Listado de Registros de Artistas</title>
+</head>
+<body>
+    <h1>Listado de Registros de Artistas</h1>
+    <ul>
+        {{#each registrosArtistas}}
+            <li>{{id_artista}} - {{nombre}} - {{email}} - {{fecha_nacimiento}}</li>
+        {{/each}}
+    </ul>
+</body>
+</html>

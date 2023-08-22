@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Actualizar Género Musical</title>
+</head>
+<body>
+    <h1>Actualizar Género Musical</h1>
+    <form method="post" action="/generos/{{id_genero}}?_method=PUT">
+        <label for="nombre_genero">Nombre del Género:</label>
+        <input type="text" name="nombre_genero" value="{{nombre_genero}}" required>
+        <button type="submit">Actualizar Género Musical</button>
+    </form>
+</body>
+</html>

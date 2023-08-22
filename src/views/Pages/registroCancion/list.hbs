@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Listado de Registros de Canciones</title>
+</head>
+<body>
+    <h1>Listado de Registros de Canciones</h1>
+    <ul>
+        {{#each registrosCanciones}}
+            <li>{{id_registro}} - {{titulo_cancion}} - {{nombre_artista}}</li>
+        {{/each}}
+    </ul>
+</body>
+</html>

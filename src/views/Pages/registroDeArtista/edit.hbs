@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Actualizar Registro de Artista</title>
+</head>
+<body>
+    <h1>Actualizar Registro de Artista</h1>
+    <form method="post" action="/registro-artistas/{{id_artista}}?_method=PUT">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" value="{{nombre}}" required>
+        <label for="email">Email:</label>
+        <input type="email" name="email" value="{{email}}" required>
+        <label for="password">Contraseña:</label>
+        <input type="password" name="password" value="{{password}}" required>
+        <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+        <input type="date" name="fecha_nacimiento" value="{{fecha_nacimiento}}" required>
+        <button type="submit">Actualizar Registro de Artista</button>
+    </form>
+</body>
+</html>
